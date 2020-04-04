@@ -27,6 +27,8 @@
             android:id="@+id/descTv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:maxLines="4"
+            android:lines="4"
             android:text="There may be long description"/>
         <View
             android:layout_width="match_parent"
@@ -42,32 +44,36 @@
             <ImageButton
                 android:id="@+id/deleteBtn"
                 android:background="@null"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:scaleType="fitXY"
                 android:src="@drawable/ic_action_delete"
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"/>
             <ImageButton
                 android:id="@+id/editBtn"
                 android:background="@null"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:scaleType="fitXY"
                 android:src="@drawable/ic_action_edit"
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"/>
             <ImageButton
                 android:id="@+id/copyBtn"
                 android:background="@null"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:scaleType="fitXY"
                 android:src="@drawable/ic_action_copy"
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"/>
             <ImageButton
                 android:id="@+id/shareBtn"
                 android:background="@null"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:scaleType="fitXY"
                 android:src="@drawable/ic_action_share"
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"/>
